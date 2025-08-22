@@ -136,7 +136,6 @@ export default function Portfolio() {
       element.scrollIntoView({ behavior: "smooth" })
     }
   }
-  
   async function fetchLanguages() {
     // Try cache first
     const cached = localStorage.getItem("languageStats");
