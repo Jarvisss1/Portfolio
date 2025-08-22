@@ -7,7 +7,6 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Separator } from "@/components/ui/separator"
 import { Github, Linkedin, Mail, ExternalLink, MapPin, Calendar, Code, Brain, Database, Smartphone } from "lucide-react"
-import { log } from "console"
 
 const CATEGORY_MAP: Record<string, string> = {
   // Web
@@ -138,10 +137,7 @@ export default function Portfolio() {
     }
   }
 
-  const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME; // your username
-
   const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN; // Store securely in .env for production
-  console.log("GITHUB_TOKEN:", GITHUB_TOKEN);
 
   async function fetchLanguages() {
     // Try cache first
@@ -254,7 +250,8 @@ export default function Portfolio() {
                 <Button
                   variant="secondary"
                   size="lg"
-                  className="sm:w-auto cursor-pointer"
+                  className="
+                  sm:w-auto cursor-pointer"
                 >
                   Download Resume
                 </Button>
@@ -895,14 +892,15 @@ export default function Portfolio() {
               Get In Touch
             </h2>
             <p className="text-lg text-muted-foreground">
-              Let's discuss opportunities and collaborate on exciting projects
+              Let&apos;s discuss opportunities and collaborate on exciting
+              projects
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h3 className="font-serif text-2xl font-semibold mb-6">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
@@ -961,7 +959,7 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle>Send a Message</CardTitle>
                 <CardDescription>
-                  I'm always open to discussing new opportunities
+                  I&apos;m always open to discussing new opportunities
                 </CardDescription>
               </CardHeader>
               <CardContent>
