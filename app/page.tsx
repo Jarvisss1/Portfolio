@@ -136,9 +136,7 @@ export default function Portfolio() {
       element.scrollIntoView({ behavior: "smooth" })
     }
   }
-
-  const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN; // Store securely in .env for production
-
+  
   async function fetchLanguages() {
     // Try cache first
     const cached = localStorage.getItem("languageStats");
