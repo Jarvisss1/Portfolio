@@ -317,6 +317,7 @@ export default function Portfolio() {
                     <p className="text-muted-foreground">
                       B.Tech in Computer Science & Engineering
                     </p>
+                    <p>CPI: 8.96/10</p>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                       <Calendar size={16} />
                       <span>Dec 2022 - May 2026</span>
@@ -333,7 +334,7 @@ export default function Portfolio() {
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>
-                    • Solved 500+ DSA problems with 1687 rating on LeetCode
+                    • Solved 550+ DSA problems with 1687 rating on LeetCode
                   </li>
                   <li>• Top 13.91% ranking in competitive programming</li>
                   <li>• Content Strategist at Finance and Consulting Club</li>
