@@ -298,8 +298,8 @@ export default function Portfolio() {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Passionate about creating innovative solutions through code and
-              artificial intelligence
+              Passionate about building scalable and interactive web & mobile
+              applications using modern technologies.
             </p>
           </div>
 
@@ -334,11 +334,25 @@ export default function Portfolio() {
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>
-                    • Solved 550+ DSA problems with 1687 rating on LeetCode
+                    • Solved 550+ DSA problems with 1687 rating on{" "}
+                    <a
+                      href="https://leetcode.com/yshivhare163"
+                      target="_blank"
+                      className="text-primary underline"
+                    >
+                      LeetCode
+                    </a>
                   </li>
                   <li>• Top 13.91% ranking in competitive programming</li>
+                </ul>
+              </div>
+
+              <div className="space-y-4 mt-4">
+                <h3 className="font-serif text-2xl font-semibold">
+                  Positions of Responsibility
+                </h3>
+                <ul className="space-y-2 text-muted-foreground">
                   <li>• Content Strategist at Finance and Consulting Club</li>
-                  <li>• NVIDIA DLI Certificate in Computer Vision</li>
                 </ul>
               </div>
             </div>
@@ -347,15 +361,15 @@ export default function Portfolio() {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <Brain className="text-primary" size={24} />
-                    AI/ML Focus
+                    <Code className="text-primary" size={24} />
+                    Frontend & Full-Stack Development
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Specialized in computer vision and machine learning with
-                    hands-on experience in TensorFlow.js, building intelligent
-                    applications that solve real-world problems.
+                    Proficient in React, Next.js, and React Native for building
+                    scalable web & mobile applications. Experienced in Node.js,
+                    Express, and cloud platforms for backend development.
                   </p>
                 </CardContent>
               </Card>
@@ -363,15 +377,15 @@ export default function Portfolio() {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <Code className="text-primary" size={24} />
-                    Full-Stack Development
+                    <Smartphone className="text-primary" size={24} />
+                    Mobile Development
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Proficient in modern web technologies including React,
-                    Node.js, and cloud platforms, with experience building
-                    scalable applications from frontend to backend.
+                    Experienced in building interactive cross-platform apps
+                    using React Native, integrating APIs, and implementing
+                    modern UI/UX designs.
                   </p>
                 </CardContent>
               </Card>
